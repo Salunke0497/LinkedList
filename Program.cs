@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    internal class Program
+     class Program
     {
-        static void Main(string[] args)
-        {
+         public static void Main(string[] args)
+            {
+                LinkedList linkedList = new LinkedList();
+                linkedList.reverse(30);
+                linkedList.reverse(56);
+                linkedList.reverse(70);
+                linkedList.Display();
+            Console.ReadLine();
         }
     }
 }

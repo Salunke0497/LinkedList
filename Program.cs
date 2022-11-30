@@ -11,11 +11,11 @@ namespace LinkedList
          public static void Main(string[] args)
             {
                 LinkedList linkedList = new LinkedList();
-                linkedList.reverse(30);
-                linkedList.reverse(56);
-                linkedList.reverse(70);
+                linkedList.Append(56);
+                linkedList.Append(30);
+                linkedList.Append(70);
                 linkedList.Display();
-            Console.ReadLine();
+                Console.ReadLine();
         }
     }
 }

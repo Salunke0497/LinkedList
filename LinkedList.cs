@@ -60,5 +60,9 @@ namespace LinkedList
                 head.next = temp;
             }
         }
+        public void Append(int data)
+        {
+            Add(data);
+        }
     }
 }
